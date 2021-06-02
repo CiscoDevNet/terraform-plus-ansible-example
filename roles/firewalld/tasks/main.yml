@@ -14,7 +14,7 @@
 - name: permit traffic in Public zone for DNS UDP activities
   ansible.posix.firewalld:
     zone: public
-    port: 53/tcp
+    port: 53/udp
     permanent: yes
     state: enabled
 
