@@ -22,10 +22,13 @@ Example Playbook
 ----------------
 
 Here's an example of how this role is called from `main.yml`.
+
+```
 tasks:
   - name: Install Apache
       include_role:
         name: apache-web-server
+```
 
 License
 -------

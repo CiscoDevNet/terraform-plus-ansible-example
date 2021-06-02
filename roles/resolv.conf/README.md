@@ -23,10 +23,12 @@ Example Playbook
 
 Below is an example of calling the role:
 
-  tasks:
-    - name: Configure /etc/resolv.conf
-      include_role:
-        name: resolv.conf
+```  
+tasks:
+  - name: Configure /etc/resolv.conf
+    include_role:
+      name: resolv.conf
+```
 
 License
 -------

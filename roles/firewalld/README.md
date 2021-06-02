@@ -28,10 +28,12 @@ Example Playbook
 
 Here's an example of calling the role from `main.yml`.
 
+```
 tasks:
     - name: Open port 80 as needed for the Apache Web Server
       include_role:
         name: firewalld
+```
 
 License
 -------
